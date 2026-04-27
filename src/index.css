@@ -57,3 +57,43 @@ body {
 .MainPart p {
   font-size: 25px;
 }
+
+
+/*Banner*/
+
+.banner {
+  background-color: #0282f9;
+}
+
+.bannerContainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.BannerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.BannerList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.BannerList a {
+  text-decoration: none;
+  color: white;
+}
+
+.BannerList a:hover {
+  opacity: 0.7;
+}
+
+.BannerList img {
+  height: 40px;
+}
