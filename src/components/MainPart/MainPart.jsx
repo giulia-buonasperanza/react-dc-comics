@@ -1,7 +1,9 @@
 function MainPart() {
     return <>
-        <div className="main-part">
-            <p>{'-->Content goes here<--'}</p>
+        <div className="background-container">
+            <div className="MainPart">
+                <p>{'-->Content goes here<--'}</p>
+            </div>
         </div>
     </>
 }

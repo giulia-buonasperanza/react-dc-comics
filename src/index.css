@@ -22,7 +22,7 @@ body {
 
 .HeaderList {
   list-style: none;
-  display:flex;
+  display: flex;
   gap: 10px;
 }
 
@@ -31,9 +31,29 @@ body {
   color: black;
 }
 
-.HeaderList a:hover{
+.HeaderList a:hover {
   color: #0282f9;
   border-bottom: 3px solid #0282f9;
   padding-bottom: 5px;
 }
 
+/*Main*/
+
+.background-container {
+  background-color: black;
+  height: 100px;
+}
+
+.MainPart {
+  color: white;
+  height: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.MainPart p {
+  font-size: 25px;
+}
