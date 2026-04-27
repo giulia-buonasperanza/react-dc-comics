@@ -1,7 +1,7 @@
 function HeaderNav() {
   return (
-    <nav className="header-nav">
-      <ul>
+    <nav className="HeaderNav">
+      <ul className="HeaderList">
         <li><a href="/">CHARACTERS</a></li>
         <li><a href="/comics">COMICS</a></li>
         <li><a href="/characters">MOVIES</a></li>

@@ -6,6 +6,34 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Header*/
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.HeaderList {
+  list-style: none;
+  display:flex;
+  gap: 10px;
+}
+
+.HeaderList a {
+  text-decoration: none;
+  color: black;
+}
+
+.HeaderList a:hover{
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+  padding-bottom: 5px;
 }
 

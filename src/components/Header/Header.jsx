@@ -3,9 +3,11 @@ import HeaderNav from "./HeaderNav";
 
 function Header() {
     return <>
-        <HeaderLogo />
-        <HeaderNav />
+        <div className="HeaderContainer">
+                <HeaderLogo className="HeaderLogo" />
+                <HeaderNav className="HeaderNav"/>
+        </div>
     </>
-} 
+}
 
 export default Header;
