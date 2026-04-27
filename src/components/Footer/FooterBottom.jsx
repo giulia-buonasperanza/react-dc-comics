@@ -4,8 +4,12 @@ import FooterSocial from "./FooterSocial";
 
 function FooterBottom() {
     return <>
-        <FooterSign />
-        <FooterSocial />
+        <div className="backgroundFooterBottom">
+            <div className="containerFooterBottom">
+                <FooterSign />
+                <FooterSocial />
+            </div>
+        </div>
     </>
 }
 

@@ -33,8 +33,12 @@ body {
 
 .HeaderList a:hover {
   color: #0282f9;
-  border-bottom: 3px solid #0282f9;
-  padding-bottom: 5px;
+  border-bottom: 4px solid #0282f9;
+  padding-bottom: 40px;
+}
+
+.HeaderLogo img {
+  height: 80px;
 }
 
 /*Main*/
@@ -107,6 +111,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .FooterTopContainer {
@@ -132,7 +137,6 @@ body {
 .footerList {
   display: flex;
   gap: 40px;
-  z-index: 1;
 }
 
 .fistColumn {
@@ -151,4 +155,43 @@ body {
 
 .footerLogo img {
   height: 550px;
+}
+
+/*Footer Bottom*/
+
+.backgroundFooterBottom {
+  background-color: rgb(65, 61, 61);
+}
+
+.containerFooterBottom {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footerButton {
+  background-color: rgb(65, 61, 61);
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footerButton:hover {
+  background-color: #0282f9;
+  border: 2px solid white;
+}
+
+.footerSocial {
+  display: flex;
+  gap: 15px;
+}
+
+.footerSocial h2 {
+  color: #0282f9;
 }

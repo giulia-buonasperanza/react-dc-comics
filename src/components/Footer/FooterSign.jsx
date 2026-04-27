@@ -1,6 +1,8 @@
 function FooterSign() {
     return <>
-    <button>SIGN-UP NOW!</button>
+        <div>
+            <button className="footerButton">SIGN-UP NOW!</button>
+        </div>
     </>
 }
 
