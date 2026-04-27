@@ -1,7 +1,7 @@
 -Header
     -HeaderLogo
     -HeaderNav
--Main
+-MainPart
     - Placeholder
 -Banner
     -BannerItems (x5)

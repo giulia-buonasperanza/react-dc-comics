@@ -1,7 +1,12 @@
 
 
 function App() {
- return
+ return <>
+    <Header/>
+    <Main/> 
+    <Banner/>
+    <Footer/>
+ </>
     
 }
 
