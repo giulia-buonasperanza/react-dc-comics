@@ -1,0 +1,17 @@
+-Header
+    -HeaderLogo
+    -HeaderNav
+-Main
+    - Placeholder
+-Banner
+    -BannerItems (x5)
+-Footer
+    -FouterTop
+        -FouterList
+        -FouterList           
+        -FouterList            
+        -FouterList
+    -FouterBottom
+        -FouterSign
+        -FouterSocial
+            
