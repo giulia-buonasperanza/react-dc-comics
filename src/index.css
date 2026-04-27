@@ -82,6 +82,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  z-index: 1;
 }
 
 
@@ -96,4 +97,58 @@ body {
 
 .BannerList img {
   height: 40px;
+}
+
+/*Footer*/
+/*Footer Top*/
+
+.FooterTop {
+  background-image: url(/public/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.FooterTopContainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.FooterTopContainer h2 {
+  color: white;
+  font-size: 18px;
+}
+
+.FooterTopContainer ul {
+  list-style: none;
+  color: gray;
+  font-size: 15px;
+}
+
+.footerList {
+  display: flex;
+  gap: 40px;
+  z-index: 1;
+}
+
+.fistColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerLogo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.9;
+}
+
+.footerLogo img {
+  height: 550px;
 }
