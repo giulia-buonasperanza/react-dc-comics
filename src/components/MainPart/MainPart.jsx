@@ -1,10 +1,11 @@
+import MainPartContent from "./mainPartContent";
+
 function MainPart() {
     return <>
-        <div className="background-container">
-            <div className="MainPart">
-                <p>{'--> Content goes here <--'}</p>
-            </div>
+        <div className="mainPartTop">
+            <img src="/img/jumbotron.jpg"/>
         </div>
+        <MainPartContent/>
     </>
 }
 

@@ -18,6 +18,7 @@ body {
   padding: 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
+  position: sticky;
 }
 
 .HeaderList {
@@ -28,13 +29,16 @@ body {
 
 .HeaderList a {
   text-decoration: none;
-  color: black;
+   color: black;
+   font-weight: bold;
+  
 }
 
+
 .HeaderList a:hover {
-  color: #0282f9;
   border-bottom: 4px solid #0282f9;
   padding-bottom: 40px;
+  color: #0282f9;
 }
 
 .HeaderLogo img {
@@ -42,6 +46,12 @@ body {
 }
 
 /*Main*/
+
+.mainPartTop {
+  height: 375px;
+  overflow: hidden
+
+}
 
 .background-container {
   background-color: black;
