@@ -55,23 +55,31 @@ body {
 
 .background-container {
   background-color: black;
-  height: 100px;
 }
 
-.MainPart {
-  color: white;
-  height: 100px;
+.contentContainer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 40px;
 }
 
-.MainPart p {
-  font-size: 25px;
+.contentContainer div {
+  width: calc((100% - 100px) / 6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
+.contentContainer img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
 
 /*Banner*/
 
@@ -205,3 +213,4 @@ body {
 .footerSocial h2 {
   color: #0282f9;
 }
+
