@@ -29,9 +29,9 @@ body {
 
 .HeaderList a {
   text-decoration: none;
-   color: black;
-   font-weight: bold;
-  
+  color: black;
+  font-weight: bold;
+
 }
 
 
@@ -50,11 +50,11 @@ body {
 .mainPartTop {
   height: 375px;
   overflow: hidden
-
 }
 
 .background-container {
   background-color: black;
+  padding-bottom: 40px;
 }
 
 .contentContainer {
@@ -64,6 +64,35 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   padding: 40px;
+  position: relative;
+}
+
+.currentSeries {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.loadMore {
+  padding: 10px 50px;
+  background-color: #0282f9;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.loadMore:hover {
+  background-color: #026fd6;
+}
+
+.wrapLoadMore {
+  display: flex;
+  justify-content: center;
 }
 
 .contentContainer div {
@@ -213,4 +242,3 @@ body {
 .footerSocial h2 {
   color: #0282f9;
 }
-

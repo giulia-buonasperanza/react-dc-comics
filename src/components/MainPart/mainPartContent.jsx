@@ -23,13 +23,22 @@ function MainPartContent() {
         </div>);
     });
 
+
     return (
         <div className="background-container">
+
             <div className="contentContainer">
+                <div className="currentSeries">CURRENT SERIES</div>
                 {comicsJsx}
+            </div>
+            <div className="wrapLoadMore">
+                <button className="loadMore">LOAD MORE</button>
             </div>
         </div>
     );
+
+
+
 }
 
 export default MainPartContent;

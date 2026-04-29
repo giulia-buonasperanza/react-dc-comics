@@ -6,6 +6,7 @@ function MainPart() {
             <img src="/img/jumbotron.jpg"/>
         </div>
         <MainPartContent/>
+        
     </>
 }
 
