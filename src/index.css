@@ -11,6 +11,8 @@ body {
 
 /*Header*/
 
+
+
 .HeaderContainer {
   display: flex;
   justify-content: space-between;
@@ -18,7 +20,6 @@ body {
   padding: 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
-  position: sticky;
 }
 
 .HeaderList {
